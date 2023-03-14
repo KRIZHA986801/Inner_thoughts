@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: cursive;
+    padding: 10px;
+    color: yellow;
+}
+
+.signup {
+    width: 400px;
+    padding: 5px;
+    margin: 50px;
+
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin: 1px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: yellow;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+  }
+  
+button:hover {
+    opacity:1;
+  }
+
+input[type=password] {
+    width: 400px;
+    padding: 15px;
+    margin: 1px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+.login {
+    width: 400px;
+    padding: 15px;
+    margin: 50px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
